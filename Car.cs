@@ -18,12 +18,14 @@ namespace IntroClasses
         // Classes are also refered to as blueprints
 
         private int _milesDriven;
+
         private int _milesAtLastService;
         public string Color { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
         // Description would be considered a computed prop. There typically not a reason to set computed props. Logic can be added to the computed prop
+
         public string Description
         {
             get
@@ -36,7 +38,6 @@ namespace IntroClasses
         // Does not return anything
         public void Drive(int miles)
         {
-            // Drive can access drive because it is in the same class and it is public
             _milesDriven += miles;
         }
 
@@ -50,7 +51,7 @@ namespace IntroClasses
             _milesAtLastService = _milesDriven;
         }
 
-        public int GetServiceReport()
+        public int GetMaintenanceAtMileage()
         {
             return _milesAtLastService + 5_000;
         }
@@ -62,11 +63,6 @@ namespace IntroClasses
             Year = year;
             _milesDriven = miles;
         }
-
-
-
-
-
 
         // Private fields will not be accessible outside of the car class.
         // Fields are similar to to props, but are by convention private and don't have a getter or setter.
