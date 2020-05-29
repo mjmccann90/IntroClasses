@@ -13,8 +13,12 @@ namespace IntroClasses
 
         // it will be rare that that there will rarely be only a set
 
-        // public refers to who can view the prop. it can univerially viewed 
+        // public refers to who can view the prop. it can univerially viewed
 
+        // Classes are also refered to as blueprints
+
+        private int _milesDriven;
+        private int _milesAtLastService;
         public string Color { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
@@ -27,12 +31,46 @@ namespace IntroClasses
                 return $"A {Year} {Color} {Make} {Model}";
             }
         }
+        // Methods begin similarly to props where the accessiblity is declared and what it returns when it is invoked
 
-        // Private fields will not be accessible outside of the car class. 
+        // Does not return anything
+        public void Drive(int miles)
+        {
+            // Drive can access drive because it is in the same class and it is public
+            _milesDriven += miles;
+        }
+
+        public int GetOdometer()
+        {
+            return _milesDriven;
+        }
+
+        public void Service()
+        {
+            _milesAtLastService = _milesDriven;
+        }
+
+        public int GetServiceReport()
+        {
+            return _milesAtLastService + 5_000;
+        }
+
+        // Constructor Method
+        // Constructors don't have a return type and the name of the method is the same as the name of the class
+        public Car(int year, int miles)
+        {
+            Year = year;
+            _milesDriven = miles;
+        }
+
+
+
+
+
+
+        // Private fields will not be accessible outside of the car class.
         // Fields are similar to to props, but are by convention private and don't have a getter or setter.
         private int _milesDriven;
-
-
     }
 
 }
