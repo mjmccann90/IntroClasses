@@ -29,6 +29,7 @@ namespace IntroClasses
         }
 
         // Private fields will not be accessible outside of the car class. 
+        // Fields are similar to to props, but are by convention private and don't have a getter or setter.
         private int _milesDriven;
 
 
