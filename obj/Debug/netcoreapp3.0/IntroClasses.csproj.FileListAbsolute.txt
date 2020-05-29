@@ -1,0 +1,11 @@
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses.deps.json
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses.runtimeconfig.json
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses.runtimeconfig.dev.json
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses.dll
+/Users/markmccann/workspace/csharp/IntroClasses/bin/Debug/netcoreapp3.0/IntroClasses.pdb
+/Users/markmccann/workspace/csharp/IntroClasses/obj/Debug/netcoreapp3.0/IntroClasses.csprojAssemblyReference.cache
+/Users/markmccann/workspace/csharp/IntroClasses/obj/Debug/netcoreapp3.0/IntroClasses.AssemblyInfoInputs.cache
+/Users/markmccann/workspace/csharp/IntroClasses/obj/Debug/netcoreapp3.0/IntroClasses.AssemblyInfo.cs
+/Users/markmccann/workspace/csharp/IntroClasses/obj/Debug/netcoreapp3.0/IntroClasses.dll
+/Users/markmccann/workspace/csharp/IntroClasses/obj/Debug/netcoreapp3.0/IntroClasses.pdb
